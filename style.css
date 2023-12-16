@@ -436,14 +436,15 @@ a#scroll-btn:before{
   .socials{
 	background-color: var(--body-color);
 	height: 40vh;
+	width: 100%;
 	margin-bottom: 3rem;
+	text-align: center;
   }
 
   .socials-left{
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: orange;
 	position: relative;
   }
 
@@ -451,23 +452,62 @@ a#scroll-btn:before{
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	margin: 0;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	width: 100%;
   }
 
   .socials-left li{
-	font-size: 2rem;
 	padding: 1.2rem;
+  }
+
+  .socials-left li a{
+	font-size: 2rem;
+	color: var(--font-color);
+  }
+
+  .socials-left li a:hover{
+	font-size: 2.3rem;
+	color: var(--span-color);
+	transition: 0.3s;
   }
 
   .socials-right{
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: purple;
+	display: flex;
+  	align-items: center;
+	position: relative;
   }
+
+  .download{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+  .download a{
+    background-color:var(--span-color);
+    padding:1.2rem;
+    color:#fff;
+	font-size: 1.5rem;
+    transition:all 0.4s ease;
+	text-decoration: none;
+  }
+
+  .download i{
+	font-size: 2rem;
+  }
+
+  .download a:hover{
+    background: var(--title-color);
+	font-size: 1.8rem;
+	text-decoration: underline var(--font-color);
+  }
+
 
   .socials-container{
 	display: flex;

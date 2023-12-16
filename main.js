@@ -67,3 +67,5 @@ const observer = new IntersectionObserver(function(entries, observer) {
 
 const div = document.getElementById('small');
 observer.observe(div);
+
+
