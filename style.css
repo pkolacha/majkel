@@ -241,7 +241,7 @@ a#scroll-btn:before{
 	transform: translateY(30px);
 	opacity: 0;
 	visibility: hidden;
-	animation: fade-in 4s linear forwards;
+	animation: fade-in 6s linear forwards;
 }
 .notification__progress {
 	position: absolute;
@@ -253,7 +253,7 @@ a#scroll-btn:before{
 	transform-origin: left;
 	background-image: linear-gradient(to right, #539bdb, #3250bf);
 	border-radius: inherit;
-	animation: load 3s 0.25s linear forwards;
+	animation: load 5s 0.25s linear forwards;
 }
 
 
