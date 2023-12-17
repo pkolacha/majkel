@@ -21,6 +21,10 @@ body{
     background-color: var(--body-color);
 }
 
+a{
+	text-decoration: none;
+}
+
 section{
 	height: auto;
 }
@@ -493,11 +497,15 @@ a#scroll-btn:before{
   .download button{
     background-color:var(--span-color);
     padding:1.2rem;
-    color:#fff;
+
 	font-size: 1.5rem;
     transition:all 0.4s ease;
 	text-decoration: none;
 	border-radius: 2rem;
+  }
+
+  .download a{
+	color: #fff;
   }
 
   .download i{
