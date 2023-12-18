@@ -1,3 +1,5 @@
+//LINIJKA 52 KOCHANIEEEEEEEEEEEEEEEEE
+
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -47,11 +49,10 @@ function funkcja() {
 				setTimeout(updateCouter, 1);
 			} else {
 				counter.innerText = target;
-				counter.appendChild(plus);
+				counter.appendChild(plus);//TU NIE DZIALA WSENSIE NA JEDNYM DZIALA ZEBYS WIDZIALE GDZIE TO
 			}
 		};
 		updateCouter();
-	
 	});
 }
 
