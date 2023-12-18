@@ -36,6 +36,7 @@ section .title{
 	padding-top: 2rem;
 	color: #fff;
 	text-decoration: underline var(--span-color);
+	text-underline-offset: .5rem;
 }
 
 
