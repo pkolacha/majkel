@@ -30,6 +30,7 @@ menu_item.forEach((item) => {
 
 
 const counters = document.querySelectorAll('.counter');
+const plus = document.createTextNode("+")
 
 function funkcja() {
 	counters.forEach((counter) => {
@@ -46,11 +47,14 @@ function funkcja() {
 				setTimeout(updateCouter, 1);
 			} else {
 				counter.innerText = target;
+				counter.appendChild(plus);
 			}
 		};
 		updateCouter();
+	
 	});
 }
+
 
 var once = 0;
 
@@ -64,6 +68,7 @@ const observer = new IntersectionObserver(function(entries, observer) {
 		});
 	}
 });
+
 
 const div = document.getElementById('small');
 observer.observe(div);

@@ -178,6 +178,7 @@ section .title{
     background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	background-attachment: fixed;
     position: relative;
     z-index: -1;
 }
@@ -308,6 +309,10 @@ a#scroll-btn:before{
     /* background-color: var(--body-color); */
 }
 
+.quote2{
+	margin-top: 3rem;
+}
+
 .quote h1{
     color: rgb(246, 213, 28);
     font-size: 5.6rem;
@@ -320,7 +325,9 @@ a#scroll-btn:before{
     font-size: 1.8rem;
 }
 
-
+#about{
+	height: auto;
+}
 .about{
 	display: flex;
     flex-wrap: wrap;
