@@ -207,33 +207,6 @@ section .title{
     margin-top: 2rem;
 }
 
-a#scroll-btn{
-    position: absolute;
-    height: 5em;
-    width: 3em;
-    border: 0.3em solid #ffffff;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 2em;
-    border-radius: 3em;
-    
-}
-
-a#scroll-btn:before{
-    position: absolute;
-    content: "";
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: .8em;
-    height: .8em;
-    width: .8em;
-    background-color: #fff;
-    border-radius: 50%;
-    animation: move-down 2s infinite;
-}
-
 .notification {
 	position: absolute;
 	bottom: 50px;
@@ -588,9 +561,6 @@ a#scroll-btn:before{
 @media screen and (max-width: 1023px){
     .main{
         background-position: center;
-    }
-    a#scroll-btn{
-        display: none;
     }
 	.card p{
 		opacity: 1;
