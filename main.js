@@ -30,7 +30,7 @@ menu_item.forEach((item) => {
 
 
 const counters = document.querySelectorAll('.counter');
-const plus = document.createTextNode("+")
+
 
 function funkcja() {
 	counters.forEach((counter) => {
@@ -47,7 +47,7 @@ function funkcja() {
 				setTimeout(updateCouter, 1);
 			} else {
 				counter.innerText = target;
-				counter.appendChild(plus);
+
 			}
 		};
 		updateCouter();
